@@ -1,0 +1,6 @@
+name = Gallery Formatter Advance
+description = Make Gallery Formatter fields auto advance on page load.
+package = User interface
+dependencies[] = galleryformatter
+core = 7.x
+files[] = test.module

@@ -1,0 +1,12 @@
+<?php
+/**
+ * @file galleryformatter_advance.module
+ * TODO: Make galleryformatter nodes auto-advance, pause on hover.
+ */
+
+/**
+ * Implements hook_init().
+ */
+function galleryformatter_advance_init() {
+  drupal_add_js(drupal_get_path('module', 'galleryformatter_advance') .'/galleryformatter_advance.js');
+}
