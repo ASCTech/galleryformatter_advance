@@ -11,8 +11,9 @@ jQuery(document).ready(function() {
 
 
   var displayThumbs = jQuery('.field-name-field-displaythumbs').text();
-  if (displayThumbs==0) {
+  if (displayThumbs=='0') {
     jQuery('.gallery-thumbs').hide();
   }
 }
+
     );
